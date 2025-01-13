@@ -10,7 +10,7 @@ export default function Home() {
       <div>
         <img className="w-full h-auto object-cover" src="iitdm.jpg" alt="no image" />
       </div>
-      <div className="summary flex flex-col md:flex-row">
+      <div className="summary mx-14 flex flex-col md:flex-row">
         <div className="summarycontent px-4 py-3 w-full md:w-[80%] animate-slideInLeft">
           <div className="font-bold text-lg">Hi I am</div>
           <div className="font-bold text-[#013571] text-2xl">
@@ -52,7 +52,7 @@ export default function Home() {
         <div className="left w-full md:w-[50vw]">
           <img className="w-[230px] rounded-lg mx-auto" src="logo.jpg" alt="" />
         </div>
-        <div className="right mx-auto bg-[#a6c9f0] px-12 py-[55px] rounded-[60px] w-full md:w-[50vw]">
+        <div className="right mx-auto bg-[#a6c9f0] px-12 py-[55px] rounded-[60px] w-full md:w-[40vw]">
           <div className="flex gap-2">
             <img className="w-[30px]" src="icons/summary.svg" alt="" />
             <h1 className="font-bold text-3xl text-black">Areas of Interest</h1>
