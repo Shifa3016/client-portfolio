@@ -3,13 +3,9 @@ import Heading from '../components/Heading'
 
 const page = () => {
   return (
-    <div>
+    <div className='pt-[56px] min-h-[100vh]'>
       {/* Responsive Image */}
-      <img
-        src="projects.jpg"
-        alt="no image"
-        className="w-full h-auto object-cover"
-      />
+      <img className="md:w-[100vw] md:h-[80vw] lg:w-full lg:h-auto object-cover h-[100vw] w-[100vw]" src="projects.jpg" alt="no image" />
 
       <div className="pt-2 px-4 sm:px-6 md:px-8 lg:mx-8">
         <div>
