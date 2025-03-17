@@ -4,16 +4,11 @@ import Bullets from '../components/Bullets';
 
 const Page = () => {
   return (
-    <div className="flex flex-col items-center">
-      {/* Image Section */}
-      <img 
-        className="pt-12 w-full max-w-lg sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl object-cover" 
-        src="pic2.jpg" 
-        alt="Achievement" 
-      />
+    <div className='pt-[56px] min-h-[100vh]'>
+        <img className="md:w-[100vw] md:h-[80vw] lg:w-full lg:h-auto object-cover object-[98%] h-[90vw] w-[100vw]" src="achievements.jpg" alt="no image" />
       
       {/* Content Section */}
-      <div className="pt-4 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-48 w-full">
+      <div className="pt-2 px-4 sm:px-8 lg:px-16 w-full">
         {/* Heading */}
         <div>
           <Heading title="Achievements" />
