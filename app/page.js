@@ -6,9 +6,9 @@ import Orcid from "./components/Orcid";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="pt-[56px]">
       <div>
-        <img className="w-full h-auto object-cover" src="iitdm.jpg" alt="no image" />
+        <img className="md:w-[100vw] md:h-[80vw] lg:w-full lg:h-auto object-cover h-[100vw] w-[100vw]" src="iitdm.jpg" alt="no image" />
       </div>
       <div className="summary mx-14 flex flex-col md:flex-row">
         <div className="summarycontent px-4 py-3 w-full md:w-[80%] animate-slideInLeft">
@@ -68,30 +68,30 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="referees mx-8">
-        <div className="flex gap-2">
-          <Heading title="Referees" />
-        </div>
-        <div className="people flex justify-center my-5 flex-wrap">
-          <div className="cards w-[45%] md:w-[25%] mx-4 py-4 bg-[#e2ebf6] rounded-[40px] justify-items-center text-center">
-            <img className="rounded-[100%] mx-auto" src="himanshu.png" alt="no image" />
-            <div>Dr. Himansu Sekhar Nanda</div>
-            <div>Assistant professor, IIITDM Jabalpur</div>
-            <div>Email: himansu@iiitdmj.ac.in</div>
-          </div>
-          <div className="cards w-[45%] md:w-[25%] mx-4 py-4 bg-[#e2ebf6] rounded-[40px] justify-items-center text-center">
-            <img className="rounded-[100%] w-[171px] h-[213px] mx-auto" src="pkjain.jpeg" alt="no image" />
-            <div>Dr. Prashant K. Jain</div>
-            <div>Assistant professor, IIITDM Jabalpur</div>
-            <div>Email: pkjain@iiitdmj.ac.in</div>
-          </div>
-          {/* <div className="cards w-[45%] md:w-[25%] mx-4 py-4 bg-[#e2ebf6] rounded-[40px] justify-items-center text-center">
-            <img className="rounded-[100%] h-[213px] mx-auto" src="narendra.png" alt="no image" />
-            <div>Dr. Narendra Kumar</div>
-            <div>Assistant professor, NIT Jalandhar</div>
-            <div>Email: kumarn@nitj.ac.in</div>
-          </div> */}
-        </div>
+      // <div className="referees mx-8">
+      //   <div className="flex gap-2">
+      //     <Heading title="Referees" />
+      //   </div>
+      //   <div className="people flex justify-center my-5 flex-wrap">
+      //     <div className="cards w-[45%] md:w-[25%] mx-4 py-4 bg-[#e2ebf6] rounded-[40px] justify-items-center text-center">
+      //       <img className="rounded-[100%] mx-auto" src="himanshu.png" alt="no image" />
+      //       <div>Dr. Himansu Sekhar Nanda</div>
+      //       <div>Assistant professor, IIITDM Jabalpur</div>
+      //       <div>Email: himansu@iiitdmj.ac.in</div>
+      //     </div>
+      //     <div className="cards w-[45%] md:w-[25%] mx-4 py-4 bg-[#e2ebf6] rounded-[40px] justify-items-center text-center">
+      //       <img className="rounded-[100%] w-[171px] h-[213px] mx-auto" src="pkjain.jpeg" alt="no image" />
+      //       <div>Dr. Prashant K. Jain</div>
+      //       <div>Assistant professor, IIITDM Jabalpur</div>
+      //       <div>Email: pkjain@iiitdmj.ac.in</div>
+      //     </div>
+      //      <div className="cards w-[45%] md:w-[25%] mx-4 py-4 bg-[#e2ebf6] rounded-[40px] justify-items-center text-center">
+      //       <img className="rounded-[100%] h-[213px] mx-auto" src="narendra.png" alt="no image" />
+      //       <div>Dr. Narendra Kumar</div>
+      //       <div>Assistant professor, NIT Jalandhar</div>
+      //       <div>Email: kumarn@nitj.ac.in</div>
+      //     </div> 
+      //   </div>
         <div className="quotes bg-[#013571] text-white my-4 mx-11 flex flex-col md:flex-row">
           <div className="pic md:w-[350px] mx-auto">
             <img className="w-full h-auto" src="mechanical.jpeg" alt="no image" />
