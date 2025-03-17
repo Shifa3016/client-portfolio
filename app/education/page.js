@@ -4,7 +4,7 @@ import Details from '../components/Details';
 
 const page = () => {
     return (
-        <div className='pt-[56px]'>
+        <div className='pt-[56px] min-h-[100vh]'>
             <img className="md:w-[100vw] md:h-[80vw] lg:w-full lg:h-auto object-right object-cover h-[100vw] w-[100vw]" src="academic2.jpg" alt="no image" />
             <div className='mx-8'>
                 <div className="academics my-3">
