@@ -5,9 +5,9 @@ import Bullets from '../components/Bullets';
 
 const page = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white pt-[56px]">
       {/* Image Header */}
-      <img className="w-full h-auto" src="experience.jpg" alt="Experience Header" />
+      <img className="md:w-[100vw] md:h-[80vw] lg:w-full lg:h-auto object-cover h-[100vw] w-[100vw]" src="experience.jpg" alt="Experience Header" />
 
       {/* Content Section */}
       <div className="pt-2 px-4 sm:px-8 lg:px-16">
@@ -74,7 +74,7 @@ const page = () => {
         {/* Positions of Responsibility Section */}
         <div className="my-6">
           <Heading title="Positions of Responsibility" />
-          <div className="my-3 p-6 bg-[#d5e3f3] rounded-md space-y-2">
+          <div className="my-3 py-6 px-3 bg-[#d5e3f3] rounded-md space-y-2">
             <Bullets title="Managing “Design & Innovation Lab” at IIITD, Delhi (August 2023-Present)." />
             <Bullets title="Establishment and management, “Drone Innovation Lab (DIL)” at IIITD-IC (March 2023-Present)." />
             <Bullets title="Handling all CAD modelling and Additive manufacturing projects at “Fused Filament Fabrication (FFF) Lab”, IIITDM Jabalpur (November 2019-August 2022)." />
@@ -88,6 +88,7 @@ const page = () => {
 };
 
 export default page;
+
 
 
 
