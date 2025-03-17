@@ -68,6 +68,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="referees mx-8">
         <div className="quotes bg-[#013571] text-white my-4 mx-11 flex flex-col md:flex-row">
           <div className="pic md:w-[350px] mx-auto">
             <img className="w-full h-auto" src="mechanical.jpeg" alt="no image" />
