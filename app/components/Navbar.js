@@ -10,10 +10,12 @@ const Navbar = () => {
       <nav className='flex justify-between px-4 py-2 items-center text-[17px]'>
         <div className='content-center flex items-center'>
           {/* Desktop Navigation */}
-          <ul className='gap-5 text-white hidden lg:flex'>
-            <li><img className='w-[75px] rounded' src="flag2.png" alt="Flag" /></li>
+         <ul className='gap-5 text-white hidden lg:flex'>
+            <li>
+              <img className='w-[75px] rounded' src="flag2.png" alt="Flag" />
+            </li>
             {["Home", "Education", "Experiences", "Achievements", "Projects", "Publications", "Conferences", "Gallery", "Contact"].map((item) => (
-              <Link key={item} href={`/${item.toLowerCase()}`}>
+              <Link key={item} href={item === "Home" ? "/" : `/${item.toLowerCase()}`}>
                 <li className='p-[9px] hover:font-bold hover:bg-[#01295e] hover:text-white hover:rounded-full'>{item}</li>
               </Link>
             ))}
