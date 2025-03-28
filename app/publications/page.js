@@ -4,10 +4,10 @@ import Bullets from '../components/Bullets'
 
 const page = () => {
   return (
-    <div>
+    <div className='pt-[56px] min-h-[100vh]'>
       {/* Responsive Image */}
       <img
-        className="w-full h-auto object-cover"
+        className="md:w-[100vw] md:h-[80vw] lg:w-full lg:h-auto object-cover h-[100vw] w-[100vw]"
         src="publication.jpg"
         alt="no image"
       />
@@ -17,6 +17,25 @@ const page = () => {
         </div>
         <div className="my-4 space-y-4 sm:space-y-6">
           {/* Bullet Points */}
+          <div className="my-3">
+            <Bullets
+              title={
+                <>
+                  <b>Ansari, Mohammad Aftab Alam</b>, Prashant Kumar Jain, and Himansu Sekhar Nanda, (2025) “Influence of Pore Geometry on the Compressive Strength and Cell-Materials Interaction of 3D Printed PLA Scaffolds”, Polymer-Plastics Technology and Materials &nbsp;
+                  <a
+                    href="https://doi.org/10.1080/25740881.2025.2463571 "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 underline break-all hover:text-blue-800"
+                  >
+                    https://doi.org/10.1080/25740881.2025.2463571
+                  </a>{' '}
+                  <b>(SCIE, Q2, IF:2.7)</b>
+                </>
+              }
+              icon="icons/icon.svg"
+            />
+          </div>
           <div className="my-3">
             <Bullets
               title={
@@ -32,7 +51,7 @@ const page = () => {
                   >
                     https://doi.org/10.1039/D4TB00785A
                   </a>{' '}
-                  <b>(SCI, Q1, IF: 7.0)</b>
+                  <b>(SCI, Q1, IF: 6.1)</b>
                 </>
               }
               icon="icons/icon.svg"
