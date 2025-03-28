@@ -11,6 +11,19 @@ const Page = () => {
       <div className="pt-2 px-4 sm:px-8 lg:px-16 w-full">
         {/* Heading */}
         <div>
+          <div className='flex gap-1 mt-3'>
+            <Heading title="Invited Lectures"/>
+          </div>
+          <div>
+            <div className='my-4'>
+              <Bullets title="Delivered an invited lecture on “Additive Manufacturing of Polymers:  Scope of Entrepreneurship” in MSME (GoI) sponsored five-days advanced ESDP held at NIT Jalandhar during 16th to 20th December, 2023, Chair: Prof. R K Garg, IPE, NIT Jalandhar). " />
+            </div>
+            <div className='my-4'>
+              <Bullets title=" Delivered a lecture at the electronics design carnival on the topic “Introduction to Rapid Prototyping” organized by IIIT Delhi between 1st July to 12th July, 24. " />
+            </div>
+          </div>
+        </div>
+        <div>
           <Heading title="Achievements" />
         </div>
 
