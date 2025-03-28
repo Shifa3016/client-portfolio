@@ -14,7 +14,7 @@ export default function AftabGallery() {
   }, []);
 
   return (
-    <div className="pt-[56px]">
+    <div className="pt-[56px] min-h-[100vh]">
         <div className="mx-8 my-3">
       <Heading title="Gallery" />
       </div>
